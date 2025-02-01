@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\media\\870747ab-a904-4e14-8692-5eb81c8c0565.jpg",
+      "PackagePath": "staticwebassets\\media\\870747ab-a904-4e14-8692-5eb81c8c0565.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\media\\main-image.jpg",
+      "PackagePath": "staticwebassets\\media\\main-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\media\\photo_5802935596891621759_y.jpg",
+      "PackagePath": "staticwebassets\\media\\photo_5802935596891621759_y.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\styles.css",
+      "PackagePath": "staticwebassets\\styles.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.movie-recommendations.props",
+      "PackagePath": "build\\movie-recommendations.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.movie-recommendations.props",
+      "PackagePath": "buildMultiTargeting\\movie-recommendations.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.movie-recommendations.props",
+      "PackagePath": "buildTransitive\\movie-recommendations.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.movie-recommendations.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

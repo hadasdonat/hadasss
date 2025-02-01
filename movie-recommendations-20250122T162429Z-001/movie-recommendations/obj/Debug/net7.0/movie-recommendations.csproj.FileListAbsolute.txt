@@ -1,0 +1,81 @@
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\appsettings.json
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.staticwebassets.runtime.json
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\scripts\emotion_detection.py
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.exe
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.deps.json
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.runtimeconfig.json
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.dll
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.pdb
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.AssemblyInfoInputs.cache
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.AssemblyInfo.cs
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.csproj.CoreCompileInputs.cache
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.movie-recommendations.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.build.movie-recommendations.props
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.movie-recommendations.props
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.movie-recommendations.props
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\scopedcss\bundle\movie-recommendations.styles.css
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.dll
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\refint\movie-recommendations.dll
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.pdb
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.genruntimeconfig.cache
+C:\Users\hila\Documents\tal\4semester1\AI\testProject\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\ref\movie-recommendations.dll
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\appsettings.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.staticwebassets.runtime.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\scripts\emotion_detection.py
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.exe
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.deps.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.runtimeconfig.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.dll
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.pdb
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.AssemblyInfo.cs
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.movie-recommendations.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.build.movie-recommendations.props
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.movie-recommendations.props
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.movie-recommendations.props
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\scopedcss\bundle\movie-recommendations.styles.css
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.dll
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\refint\movie-recommendations.dll
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.pdb
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.genruntimeconfig.cache
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001 (2)\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\ref\movie-recommendations.dll
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\appsettings.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\scripts\emotion_detection.py
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.staticwebassets.runtime.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.exe
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.deps.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.runtimeconfig.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.dll
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\bin\Debug\net7.0\movie-recommendations.pdb
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.AssemblyInfoInputs.cache
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.AssemblyInfo.cs
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.csproj.CoreCompileInputs.cache
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.movie-recommendations.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.build.movie-recommendations.props
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.movie-recommendations.props
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.movie-recommendations.props
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\scopedcss\bundle\movie-recommendations.styles.css
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.dll
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\refint\movie-recommendations.dll
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.pdb
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.genruntimeconfig.cache
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\ref\movie-recommendations.dll

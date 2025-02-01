@@ -1,0 +1,226 @@
+/* עיצוב בסיסי */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("media/main-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 60%;
+    max-height: 60%;
+    width: 60%;
+    height: 70%;
+    padding: 40px;
+    background: #f0f8ff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* כותרות */
+header h1 {
+    color: #4a90e2;
+    font-size: 3.4em; /* גודל גדול יותר */
+    font-weight: bold; /* מודגש יותר */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* הצללה */
+}
+
+header p {
+    color: #4a90e2;
+    font-size: 1.9em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+small {
+    font-size: 0.8em; /* קטן יותר */
+    color: #666;
+    margin-top: 10px; /* ריווח קטן מהצ'קבוקס */
+    display: block;
+}
+
+
+#upload-section, #result-section {
+    margin-top: 20px;
+}
+
+#upload-btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.3em; /* גדול מעט יותר */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* צל לכפתור */
+}
+
+#upload-btn:hover {
+    background-color: #357ab8;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* יותר צל בהובר */
+    transform: translateY(-2px); /* אפקט עלייה */
+}
+
+#movie-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #4a90e2;
+    border: 2px solid #4a90e2;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    width: fit-content;
+    background: #f9f9f9;
+}
+
+#movie-name i {
+    margin-right: 10px;
+    font-size: 2em;
+    color: #f5a623;
+}
+
+#enjoy-text {
+    font-size: 1.5em;
+    color: #888;
+    margin-top: 10px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#loading-spinner {
+    display: none;
+    margin: 20px auto;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+/* מדיה קוויריס לעיצוב רספונסיבי */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    #upload-btn {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+
+    #movie-name {
+        font-size: 1.5em;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    #upload-btn {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    #movie-name {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+}
+
+
+
+#emotions-section {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+}
+
+#emotions-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.emotion-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f5f7fa;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.emotion-bar {
+    flex-grow: 1;
+    height: 20px;
+    background: #e2e8f0;
+    border-radius: 10px;
+    margin: 0 15px;
+    overflow: hidden;
+}
+
+.emotion-fill {
+    height: 100%;
+    background: #4a90e2;
+    transition: width 1s ease;
+}
+
+#continue-btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+#continue-btn:hover {
+    background-color: #357ab8;
+    transform: translateY(-2px);
+}
