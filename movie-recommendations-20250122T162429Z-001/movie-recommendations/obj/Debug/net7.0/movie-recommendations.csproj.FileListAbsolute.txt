@@ -79,3 +79,4 @@ C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommend
 C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.pdb
 C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.genruntimeconfig.cache
 C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\ref\movie-recommendations.dll
+C:\Users\HP\Downloads\movie-recommendations-20250122T162429Z-001\movie-recommendations-20250122T162429Z-001\movie-recommendations\obj\Debug\net7.0\movie-recommendations.sourcelink.json

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\about.html",
+      "PackagePath": "staticwebassets\\about.html"
+    },
+    {
       "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zE5CSQghRQbIdXc0PJmZQMBRk1hOleQ86ggTxk3h4Tg=",
+  "Hash": "tdv0ZxAr0ztUeZy+jxRTeNvZ/rTiK9lfUOKuYgwQ700=",
   "Source": "movie-recommendations",
   "BasePath": "_content/movie-recommendations",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\about.html",
+      "SourceId": "movie-recommendations",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\",
+      "BasePath": "_content/movie-recommendations",
+      "RelativePath": "about.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\about.html"
+    },
     {
       "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\index.html",
       "SourceId": "movie-recommendations",
