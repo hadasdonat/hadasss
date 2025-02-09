@@ -4,406 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Mood Matcher</title>
-    
-    <!-- Google Fonts -->
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome - שימור הגרסה המקורית מהקוד הישן -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
     integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
     crossorigin="anonymous" referrerpolicy="no-referrer">
-
-    <!-- Custom Styles -->
-    <style>
-        main {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: relative;
-        min-height: 400px;
-        }
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: url("media/main-image.jpg");
-            background-size: cover;
-            padding: 20px;
-        }
-
-        /* .container {
-            max-width: 800px;
-            width: 100%;
-            background: rgba(0, 0, 0, 0.8);
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-            color: #fff;
-            text-align: center;
-        } */
-        .container {
-            max-width: 800px;  /* הקטנת הרוחב */
-    width: 90%;  /* שיהיה רספונסיבי למסכים קטנים */
-    min-height: 250px; /* הקטנת הגובה */
-        background: rgba(0, 0, 0, 0.8);
-        padding: 30px;
-        border-radius: 12px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-        color: #fff;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        margin: 120px auto 50px auto; /* ✅ ריווח מלמעלה כדי להוריד מתחת לניווט */
-
-        }
-
-        /* שילוב העיצוב החדש עם האלמנטים המקוריים */
-        /* #emotions-section {
-            background: rgba(255, 255, 255, 0.2);
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 20px;
-        } */
-
-        .emotion-item {
-            margin: 10px 0;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .emotion-bar {
-            flex-grow: 1;
-            height: 20px;
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .emotion-fill {
-            height: 100%;
-            background: #FFCC00;
-            transition: width 0.3s ease;
-        }
-
-        /* המשך הסגנונות מהעיצוב החדש */
-        header h1 {
-            font-size: 48px; /* Larger font size */
-            font-weight: 600;
-            color: #FFCC00; /* Yellow color */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-        }
-
-        header p {
-            font-size: 16px;
-            opacity: 0.8;
-        }
-        #emotions-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.8); /* שימוש באותו צבע רקע כמו הדף הראשי */
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    max-width: 450px; /* הקטנת הרוחב */
-    margin: 20px auto;
-    transition: all 0.3s ease-in-out;
-    min-height: 250px; /* הקטנת הגובה */
-    color: white; /* טקסט לבן כמו בשאר הדף */
-}
-
-
-/* עיצוב כללי לשני החלקים */
-#emotions-content {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* סגנון של קופסת הרגשות */
-#emotions-container {
-    flex: 1;
-    text-align: left;
-    padding: 10px;
-}
-
-/* סגנון של קופסת המגדר */
-#gender-container {
-    flex: 1;
-    text-align: right;
-    padding: 10px;
-}
-
-    #upload-section,
-    #emotions-section,
-    #result-section {
-        width: 100%;
-        height: 100%;
-        transition: opacity 0.3s ease;
-        padding: 20px;
-    }
-         #genre-selection {
-            margin: 20px 0;
-            padding: 20px;
-            background: rgba(255, 255, 255, 0.3); /* Darker background for better contrast */
-            border-radius: 10px;
-        } 
-
-        #genre-selection h2 {
-            font-size: 22px;
-            margin-bottom: 10px;
-        }
-
-        form label {
-            display: inline-block;
-            margin: 10px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: rgba(0, 0, 0, 0.3); /* Darker background for genre checkboxes */
-            padding: 10px;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-
-        form label:hover {
-            background-color: rgba(0, 0, 0, 0.5); /* Darker on hover */
-        }
-/* 
-        #upload-section {
-            margin-top: 20px;
-        } */
-
-        button {
-            background: #ffcc00;
-            border: none;
-            padding: 18px 28px; /* Increased padding for a larger button */
-            font-size: 20px; /* Larger font size */
-            font-weight: bold;
-            border-radius: 8px; /* Slightly rounded corners */
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        button:hover {
-            background: #ffdd44;
-            transform: scale(1.1); /* Slightly larger scale effect on hover */
-        }
-/* 
-        #result-section {
-            display: none;
-            margin-top: 30px;
-        } */
-
-        .movies-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .movie-card {
-            background: rgba(255, 255, 255, 0.2);
-            padding: 15px;
-            border-radius: 10px;
-            width: 300px;
-            text-align: center;
-            transition: 0.3s;
-        }
-
-        .movie-card:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: scale(1.05);
-        }
-
-        .movie-card i {
-            font-size: 30px;
-            margin-bottom: 10px;
-        }
-
-        .movie-card a {
-            display: block;
-            color: #ffcc00;
-            text-decoration: none;
-            font-weight: bold;
-            margin-top: 10px;
-        }
-
-        #enjoy-text {
-            font-size: 20px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-
-        footer {
-            margin-top: 30px;
-            font-size: 14px;
-            opacity: 0.7;
-        }
-
-    /* 🔹 כפתור ריסטרט מעוצב */
-#restart-btn {
-    background-color: #ffcc00;
-    color: white;
-    font-size: 18px;
-    padding: 12px 30px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-top: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-}
-input[type="checkbox"] {
-    accent-color: #ffcc00; /* צהוב */
    
-}
-
-#restart-btn:hover {
-    background-color: #ffcc00;
-    transform: scale(1.1);
-}
-#restart-btn img {
-    width: 24px;
-    height: 24px;
-    margin-bottom: -3px; /* מוריד את האייקון מעט למטה */
-}
-
-/* 🔹 ספינר */
-#loading-spinner {
-    width: 50px;
-    height: 50px;
-    border: 5px solid rgba(255, 255, 255, 0.3);
-    border-top: 5px solid #ffcc00;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    margin: 0 auto; /* מרכז את הספינר */
-}
-
-/* 🔹 מיכל טעינה */
-#loading-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-/* 🔹 טקסט "Loading..." שלא יסתובב */
-#loading-text {
-    font-size: 18px;
-    color: white;
-    font-weight: bold;
-}
-
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-/* 🔹 ניווט עליון */
-.navbar {
-    width: 100%;
-    background: rgba(0, 0, 0, 0.85);
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-
-.navbar h1 {
-    color: #ffcc00;
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 20px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 20px;
-    padding: 10px 15px;
-    border-radius: 6px;
-    transition: 0.3s;
-}
-
-.navbar a:hover {
-    background: #ffcc00;
-    color: black;
-}
-/* 🔹 תיקון הניווט התחתון */
-footer {
-    background: rgba(0, 0, 0, 0.9); /* רקע כהה */
-    color: white;
-    text-align: center;
-    padding: 15px 20px;
-    width: 100%; /* הפוטר מכסה את כל הרוחב */
-    position: fixed; /* הפוטר נשאר תמיד בתחתית */
-    bottom: 0;
-    left: 0;
-}
-
-/* 🔹 תוכן ה-footer */
-.footer-container {
-    max-width: 1200px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-/* 🔹 עיצוב של הקישורים */
-.footer-nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.footer-nav a {
-    color: #ffcc00;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.footer-nav a:hover {
-    background: #ffcc00;
-    color: black;
-}
-/* ✅ מבטיח שהתוכן לא יכוסה ע"י הפוטר */
-body {
-    padding-bottom: 60px; /* משאיר מקום לגובה ה-footer */
-}
-
-
-
-    </style>
 </head>
 
 <body>
-    <!-- 🔹 ניווט עליון -->
-<nav class="navbar">
-    <h1>Movie Mood Matcher</h1>
-    <a href="about.html">About Us</a>
-</nav>
+   
+    <nav class="navbar">
+        <h1>Movie Mood Matcher</h1>
+        <a href="pages/about.html">About Us</a>
+    </nav>
 
     <div class="container">
         <header>
@@ -412,11 +26,9 @@ body {
         </header>
 
         <main>
-            <!-- Genre Selection - שילוב הלוגיקה המקורית -->
             <div id="genre-selection">
                 <h2> Choose Up to 5 Genres:</h2>
                 <form id="genre-form">
-                    <!-- שמירה על אותם ערכים מהטופס המקורי -->
                     <label><input type="checkbox" name="genre" value="Drama"> Drama</label>
                     <label><input type="checkbox" name="genre" value="Action"> Action</label>
                     <label><input type="checkbox" name="genre" value="Fantasy"> Fantasy</label>
@@ -429,20 +41,16 @@ body {
                 <small>You can select up to 5 genres</small>
             </div>
 
-            <!-- Upload Section - שילוב הלוגיקה המקורית -->
             <div id="upload-section">
                 <button id="upload-btn" onclick="triggerUpload()">Upload / Take a Picture</button>
                 <input type="file" id="file-input" accept="image/*" style="display: none;" onchange="handleFileUpload(event)">
             </div>
+            
+            <div id="loading-container" style="display: none;">
+                <div id="loading-spinner"></div>
+                <p id="loading-text">Loading...</p> 
+            </div>
 
-            <!-- Loading Spinner - שמירה על האלמנט המקורי -->
-            <!-- 🔹 ספינר + טקסט טעינה -->
-<div id="loading-container" style="display: none;">
-    <div id="loading-spinner"></div>
-    <p id="loading-text">Loading...</p> <!-- טקסט טעינה מחוץ לספינר -->
-</div>
-
-            <!-- Emotions Section - שילוב הלוגיקה המקורית -->
             <div id="emotions-section" style="display: none;">
                 <h2>Detected Emotions</h2>
                 <div id="emotions-container">
@@ -451,7 +59,6 @@ body {
                 <button id="continue-btn" onclick="showMovieResult()">Show My Movie Match</button>
             </div>
 
-            <!-- Result Section - שילוב הלוגיקה המקורית -->
             <div id="result-section" style="display: none;">
                 <h2> Your Movie Matches:</h2>
                 <div class="movies-container">
@@ -470,7 +77,7 @@ body {
                     </div>
                 </div>
                 <div id="enjoy-text"> Enjoy Your Movie Night!</div>
-                <!-- כפתור התחלה מחדש -->
+                
                 <button id="restart-btn" onclick="restartPage()">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 4V1L8 5l4 4V6c3.3 0 6 2.7 6 6s-2.7 6-6 6a6 6 0 0 1-5.3-3.3l-1.7 1A8 8 0 0 0 12 20c4.4 0 8-3.6 8-8s-3.6-8-8-8Z"/>
@@ -484,237 +91,14 @@ body {
                 <p>Powered by AI, Our Team & Your Mood! © 2024</p>
                 <nav class="footer-nav">
                     <a href="index.html">Home</a>
-                    <a href="about.html">About Us</a>
-                    <a href="contact.html">Contact</a>
-                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="pages/about.html">About Us</a>
+                    <a href="pages/contact.html">Contact</a>
+                    <a href="pages/privacy.html">Privacy Policy</a>
                 </nav>
             </div>
         </footer>
         
     </div>
-
-    <!-- שמירה על כל הלוגיקה המקורית של JavaScript -->
-    <script>
-        console.log("✅ קובץ ה-JavaScript נטען!");
-       
-        function triggerUpload() {
-           console.log("✅ `triggerUpload()` מופעל!");
-           let input = document.getElementById("file-input");
-       
-           if (!input) {
-               console.error("❌ אין `file-input`!");
-               return;
-           }
-       
-           console.log("📌 `file-input` נמצא, מסיר `display: none;` זמנית...");
-           
-           // 1️⃣ הופך את האלמנט לגלוי
-           input.style.display = "block";  
-           input.style.opacity = "0";  // שומר עליו מוסתר מבחינת המשתמש אבל פעיל
-           
-           // 2️⃣ מבצע קליק
-           input.click();
-       
-           // 3️⃣ מחזיר אותו לנסתר אחרי שניה
-           setTimeout(() => {
-               input.style.display = "none";
-           }, 100);
-       }
-       
-       
-       let emotionsResult = null; // משתנה גלובלי לאחסון תוצאות הרגשות
-       
-    async function handleFileUpload(event) {
-    console.log("✅ handleFileUpload() התחילה לעבוד"); // בדיקה שהפונקציה מופעלת
-
-    const file = event.target.files[0];
-    if (!file) return;
-
-    console.log("✅ קובץ נבחר:", file.name); // בדיקה שהקובץ אכן נקלט
-
-    const selectedGenres = Array.from(document.querySelectorAll('#genre-form input[name="genre"]:checked'))
-        .map(checkbox => checkbox.value);
-
-    // 🔹 הסתרת כל החלקים שאינם נחוצים והצגת הספינר
-    document.getElementById('upload-section').style.display = 'none';
-    document.getElementById('genre-selection').style.display = 'none';
-    document.getElementById('loading-container').style.display = 'block';
-    document.getElementById('loading-text').style.display = 'block';
-
-    
-    try {
-        const formData = new FormData();
-        formData.append('image', file);
-        formData.append('topGeneresJson', JSON.stringify(selectedGenres));
-
-        console.log("📡 שולח תמונה לשרת...");
-        const emotionsResponse = await fetch('/movies/emotions', {
-            method: 'POST',
-            body: formData
-        });
-
-        console.log("📡 קיבלתי תשובה מהשרת!");
-        emotionsResult = await emotionsResponse.json();
-        console.log("📡 תגובת השרת:", emotionsResult);
-
-        // 🔹 כיבוי הספינר והצגת התוצאות
-        document.getElementById('loading-text').style.display = 'none';
-
-        document.getElementById('loading-container').style.display = 'none';
-        document.getElementById('emotions-section').style.display = 'block';
-        
-        // 🔹 עדכון מסך הביניים עם הרגשות שהגיעו מהשרת
-        showEmotions(emotionsResult.emotions);
-
-    } catch (error) {
-        console.error("❌ Error:", error);
-        alert("Failed to analyze image. Please try again.");
-
-        // ❌ החזרת הממשק למצב ההתחלה אם יש כשל
-        document.getElementById('loading-text').style.display = 'none';
-
-        document.getElementById('loading-container').style.display = 'none';
-        document.getElementById('emotions-section').style.display = 'none';
-        document.getElementById('upload-section').style.display = 'block';
-        document.getElementById('genre-selection').style.display = 'block';
-    }
-}
-function showEmotions(emotionsData) {
-    if (!emotionsData || !emotionsData.emotions || !emotionsData.gender) {
-        console.error("❌ Error: No valid emotions data received.");
-        document.getElementById('emotions-container').innerHTML = "<p>❌ No emotions detected.</p>";
-        return;
-    }
-
-    console.log("✅ showEmotions מופעל", emotionsData);
-
-    const emotions = emotionsData.emotions;
-    const gender = emotionsData.gender;
-
-    // **מיון הרגשות כדי למצוא את שלושת הערכים הגבוהים ביותר**
-    const sortedEmotions = Object.entries(emotions)
-        .sort((a, b) => b[1] - a[1]) // ממיין מהגבוה לנמוך
-        .slice(0, 3); // לוקח רק את שלושת הרגשות החזקים ביותר
-
-    // **עדכון התצוגה**
-    const container = document.getElementById('emotions-container');
-    container.innerHTML = '<h3> Detected Emotions:</h3>';
-
-    const emotionsRow = document.createElement('div');
-    emotionsRow.className = 'emotions-row';
-
-    sortedEmotions.forEach(([emotion, value]) => {  
-        const percentage = (value ).toFixed(1); // 🔹 משאיר את האחוז המקורי **ללא הגבלת 100%**
-        const emotionDiv = document.createElement('div');
-        emotionDiv.className = 'emotion-item';
-        emotionDiv.innerHTML = `
-            <span class="emotion-name">${emotion.toUpperCase()}</span>
-            <span class="emotion-value">${percentage}%</span>
-        `;
-        emotionsRow.appendChild(emotionDiv);
-    });
-
-    container.appendChild(emotionsRow);
-
-    // **הצגת המגדר בנפרד**
-    const genderText = document.createElement('p');
-    genderText.className = "gender-text";
-    genderText.innerHTML = `<strong>👤 Gender:</strong> ${gender}`;
-    container.appendChild(genderText);
-
-    console.log("✅ הצגת 3 הרגשות העיקריים והמגדר עם אחוזים אמיתיים!");
-}
-
-
-       
-       async function showMovieResult() {
-           if (!emotionsResult || !emotionsResult.emotions) {
-               console.error("🚨 Error: emotionsResult is not defined yet.");
-               alert("Emotions data is not available yet. Please upload an image first.");
-               return;
-           }
-       
-           console.log("✅ Button clicked! Fetching recommended movie...");
-           document.getElementById('emotions-section').style.display = 'none';
-           document.getElementById('loading-container').style.display = 'block';
-           document.getElementById('loading-text').style.display = 'block';
-
-       
-           const fileInput = document.getElementById('file-input');
-           const file = fileInput.files[0];
-       
-           if (!file) {
-               console.error("❌ No image file found in file-input.");
-               alert("Error: No image found. Please upload a new image.");
-               return;
-           }
-       
-           const selectedGenres = Array.from(document.querySelectorAll('#genre-form input[name="genre"]:checked'))
-               .map(checkbox => checkbox.value);
-       
-           console.log("📌 Debug: Selected genres:", selectedGenres);
-       
-           try {
-               const formData = new FormData();
-               formData.append('image', file);
-               formData.append('emotions', JSON.stringify(emotionsResult.emotions));
-               formData.append('gender', emotionsResult.gender || "");
-               formData.append('genres', JSON.stringify(selectedGenres)); // 🆕 הוספת הז'אנרים
-       
-               console.log("📡 שולח בקשה לשרת עם הנתונים:", { file, emotions: emotionsResult.emotions, genres: selectedGenres });
-       
-               const response = await fetch('/movies/recommendations', {
-                   method: 'POST',
-                   body: formData
-               });
-       
-               const responseText = await response.text(); // בדיקה שהתגובה תקינה
-               console.log("📡 תגובת השרת בפורמט טקסט:", responseText);
-       
-               if (!response.ok) {
-                   throw new Error(`שגיאת שרת (${response.status}): ${responseText}`);
-               }
-       
-               const result = JSON.parse(responseText);
-               console.log("📡 JSON תקין מהשרת:", result);
-               document.getElementById('loading-text').style.display = 'none';
-
-               document.getElementById('loading-container').style.display = 'none';
-               document.getElementById('result-section').style.display = 'block';
-       
-               // ניקוי התוצאות הקודמות
-               document.getElementById('movie-card-1').style.display = 'none';
-               document.getElementById('movie-card-2').style.display = 'none';
-       
-               if (result.length > 0 && result[0].title) {
-                   document.getElementById('movie-card-1').style.display = 'block';
-                   document.getElementById('movie-name-1').textContent = result[0].title;
-                   document.getElementById('movie-link-1').href = result[0].link;
-               }
-       
-               if (result.length > 1 && result[1].title) {
-                   document.getElementById('movie-card-2').style.display = 'block';
-                   document.getElementById('movie-name-2').textContent = result[1].title;
-                   document.getElementById('movie-link-2').href = result[1].link;
-               }
-       
-           } catch (error) {
-               console.error("❌ Error fetching movie recommendation:", error);
-               alert("Failed to get movie recommendation.");
-               document.getElementById('loading-container').style.display = 'none';
-               document.getElementById('loading-text').style.display = 'none';
-
-           }
-       }
-       document.addEventListener("DOMContentLoaded", function() {
-                console.log("✅ הסקריפט נטען לאחר שה-HTML סיים להיטען!");
-               console.log("📌 האם emotions-section קיים?", document.getElementById("emotions-section"));
-           });
-           function restartPage() {
-    console.log("🔄 Restarting page...");
-    location.reload(); // מרענן את הדף ומחזיר אותו להתחלה
-}
-
-        </script>
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tdv0ZxAr0ztUeZy+jxRTeNvZ/rTiK9lfUOKuYgwQ700=",
+  "Hash": "/+jKF8Po2eODq6cOmKHQN9Dz18GqDcHr+k35JIPwGgE=",
   "Source": "movie-recommendations",
   "BasePath": "_content/movie-recommendations",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\about.html",
+      "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\css\\aboutStyle.css",
       "SourceId": "movie-recommendations",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\",
       "BasePath": "_content/movie-recommendations",
-      "RelativePath": "about.html",
+      "RelativePath": "css/aboutStyle.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,7 +33,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\about.html"
+      "OriginalItemSpec": "wwwroot\\css\\aboutStyle.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\css\\styles.css",
+      "SourceId": "movie-recommendations",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\",
+      "BasePath": "_content/movie-recommendations",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\index.html",
@@ -53,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\js\\script.js",
+      "SourceId": "movie-recommendations",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\",
+      "BasePath": "_content/movie-recommendations",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\media\\870747ab-a904-4e14-8692-5eb81c8c0565.jpg",
@@ -112,12 +150,12 @@
       "OriginalItemSpec": "wwwroot\\media\\photo_5802935596891621759_y.jpg"
     },
     {
-      "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\script.js",
+      "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\pages\\about.html",
       "SourceId": "movie-recommendations",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\",
       "BasePath": "_content/movie-recommendations",
-      "RelativePath": "script.js",
+      "RelativePath": "pages/about.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,26 +166,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\script.js"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\styles.css",
-      "SourceId": "movie-recommendations",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\",
-      "BasePath": "_content/movie-recommendations",
-      "RelativePath": "styles.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\styles.css"
+      "OriginalItemSpec": "wwwroot\\pages\\about.html"
     }
   ]
 }

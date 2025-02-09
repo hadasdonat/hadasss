@@ -1,12 +1,20 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\about.html",
-      "PackagePath": "staticwebassets\\about.html"
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\css\\aboutStyle.css",
+      "PackagePath": "staticwebassets\\css\\aboutStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
       "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\media\\870747ab-a904-4e14-8692-5eb81c8c0565.jpg",
@@ -21,12 +29,8 @@
       "PackagePath": "staticwebassets\\media\\photo_5802935596891621759_y.jpg"
     },
     {
-      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\script.js",
-      "PackagePath": "staticwebassets\\script.js"
-    },
-    {
-      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\styles.css",
-      "PackagePath": "staticwebassets\\styles.css"
+      "Id": "C:\\Users\\HP\\Downloads\\movie-recommendations-20250122T162429Z-001\\movie-recommendations-20250122T162429Z-001\\movie-recommendations\\wwwroot\\pages\\about.html",
+      "PackagePath": "staticwebassets\\pages\\about.html"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.movie-recommendations.props",
